@@ -1,0 +1,6 @@
+rain(maisammaguda).
+rain(khammam).
+rain(kacheguda).
+sunny(adilabad).
+cold(araku valley).
+snow(X):-rain(X),sunny(X),cold(X).
